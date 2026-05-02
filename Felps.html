@@ -116,7 +116,6 @@
 /*-----------------MOBILE---------*/
     .btn-glass:active {
   transform: scale(0.96);
-
   background: rgba(156,199,224,0.35);
 
   box-shadow:
@@ -243,6 +242,10 @@
   pointer-events: none;
 
   z-index: 0;
+  }
+    .container * {
+  position: relative;
+  z-index: 1;
 }
 /*MOBILE*/
 @media (max-width: 480px) {
