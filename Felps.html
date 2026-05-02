@@ -99,7 +99,7 @@
   transition: all .2s ease;
     }
 /*  desktop  */
-    .:hover {
+    .btn-glass:hover {
             /*color: var(--azul-claro);*/
   background: rgba(171,200,231,1.50);
   color: #000;
@@ -249,8 +249,9 @@
     align-items: center; /* centraliza os botões */
   }
 
-  . {
-    width: 85%; /* antes 100% */
+@media (max-width: 480px) {
+  .btn-glass {
+    width: 85%;
     padding: 16px;
     font-size: 0.9rem;
   }
