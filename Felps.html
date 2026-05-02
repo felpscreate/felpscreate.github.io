@@ -243,9 +243,22 @@
 }
 /*MOBILE*/
 @media (max-width: 480px) {
+  .links {
+    align-items: center; /* centraliza os botões */
+  }
+
+  .btn-glass {
+    width: 85%; /* antes 100% */
+    padding: 16px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
   .container {
     margin: 20px;
-    padding: 45px 22px;
+    max-width: 320px; /* antes ~380+ */
+    padding: 40px 20px;
   }
 }
     footer {
