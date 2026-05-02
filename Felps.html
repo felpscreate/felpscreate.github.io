@@ -71,7 +71,7 @@
     }
 
     /* BOTÃO GLASS */
-    .btn-glass {
+    . {
       text-decoration: none;
       display: flex;
       align-items: center;
@@ -85,6 +85,8 @@
       background: rgba(255,255,255,.12);
       backdrop-filter: blur(12px);
       -webkit-backdrop-filter: blur(12px);
+      -webkit-tap-highlight-color: transparent;
+       touch-action: manipulation;
 
       border: 1px solid rgba(255,255,255,.15);
 
@@ -99,7 +101,7 @@
   transition: all .2s ease;
     }
 /*  desktop  */
-    .btn-glass:hover {
+    .:hover {
             /*color: var(--azul-claro);*/
   background: rgba(171,200,231,1.50);
   color: #000;
@@ -114,7 +116,7 @@
     .btn-glass:active {
   transform: scale(0.96);
 
-  background: rgba(156,199,224,0.35);
+  background: red important; /*rgba(156,199,224,0.35);*/
 
   box-shadow:
     0 0 15px rgba(120,150,255,.4);
@@ -247,7 +249,7 @@
     align-items: center; /* centraliza os botões */
   }
 
-  .btn-glass {
+  . {
     width: 85%; /* antes 100% */
     padding: 16px;
     font-size: 0.9rem;
@@ -294,22 +296,22 @@
 
   <div class="links fade-in-delayed-more">
 
-    <a class="btn-glass" href="https://wa.me/5551993981995">
+    <a class="" href="https://wa.me/5551993981995">
       <i class="fa-brands fa-whatsapp"></i>
       <span>WhatsApp</span>
     </a>
 
-    <a class="btn-glass" href="https://www.instagram.com/felps.design/">
+    <a class="" href="https://www.instagram.com/felps.design/">
       <i class="fa-brands fa-instagram"></i>
       <span>Instagram</span>
     </a>
 
-    <a class="btn-glass" href="https://www.behance.net/felipefarias23">
+    <a class="" href="https://www.behance.net/felipefarias23">
       <i class="fa-brands fa-behance"></i>
       <span>Portfólio</span>
     </a>
 
-    <a class="btn-glass" href="#">
+    <a class="" href="#">
       <i class="fa-solid fa-link"></i>
       <span>Veja mais</span>
     </a>
