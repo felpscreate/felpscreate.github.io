@@ -86,6 +86,9 @@
       backdrop-filter: blur(12px);
       -webkit-backdrop-filter: blur(12px);
 
+      -webkit-tap-highlight-color: transparent;
+      touch-action: manipulation;
+
       border: 1px solid rgba(255,255,255,.15);
 
       color: var(--azul-claro);
@@ -246,13 +249,13 @@
   .links {
     align-items: center; /* centraliza os botões */
   }
+}
 
+@media (max-width: 480px) {
   .btn-glass {
-    width: 85%; /* antes 100% */
+    width: 85%;
     padding: 16px;
     font-size: 0.9rem;
-    -webkit-tap-highlight-color: transparent;
-  touch-action: manipulation;
   }
 }
 
