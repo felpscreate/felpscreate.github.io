@@ -267,7 +267,14 @@
       color: #aaa;
       padding: 30px 0 10px;
     }
-
+    
+@media (max-width: 480px) {
+  body {
+    height: auto;        /* libera altura */
+    min-height: 100vh;   /* mantém layout */
+    overflow-y: auto;    /* permite rolar */
+  }
+}
 
   </style>
 </head>
